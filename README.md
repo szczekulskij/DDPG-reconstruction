@@ -8,8 +8,8 @@ Implementation of [Continuous control with deep reinforcement learning](https://
 ### File descriptions:
 1. `DDPG.py` - main file where DDPG traning, testing and plotting results is defined. Current version uses torchcontrib’s SWA version, SWA_start variable is set in timestep units. 
 2. `utils.py` - utils classes and functions. Main utils:
-* ReplayBuffer - List of all past states and their information ('state', 'action', 'next_state', 'reward', 'terminal')
-* OU_Noise - Ornstein–Uhlenbeck process noise
+    * ReplayBuffer - List of all past states and their information ('state', 'action', 'next_state', 'reward', 'terminal')
+    * OU_Noise - Ornstein–Uhlenbeck process noise
 3. `requirements.txt` - python dependencies. Install by using `pip install -r /path/to/requirements.txt`
 
 
