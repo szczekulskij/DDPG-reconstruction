@@ -3,6 +3,9 @@ Implementation of [Continuous control with deep reinforcement learning](https://
 
 #### GIF
 
+![Alt Text](Documents/pendulum.gif)
+
+
 
 
 ### File descriptions:
